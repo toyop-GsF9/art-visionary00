@@ -13,15 +13,44 @@
     --foreground-rgb: 255, 255, 255;
     --background-start-rgb: 0, 0, 0;
     --background-end-rgb: 0, 0, 0;
+    /* fonts */
+    --font-inter: Inter;
+    --font-istok-web: "Istok Web";
+    --font-michroma: Michroma;
+    --font-noto-sans-jp: "Noto Sans JP";
+
+    /* font sizes */
+    --font-size-5xl: 24px;
+    --font-size-base: 16px;
+    --font-size-xl: 20px;
+    --font-size-13xl: 32px;
+    --font-size-17xl: 36px;
+    --font-size-77xl: 96px;
+    --font-size-21xl: 40px;
+    --font-size-lg: 18px;
+
+    /* Colors */
+    --color-white: #fff;
+    --color-midnightblue: rgba(24, 12, 72, 0.8);
+    --color-cadetblue: #56afae;
+    --color-black: #000;
+    --color-whitesmoke: #f4f1ed;
+    --color-dimgray: #666;
+    --color-paleturquoise-100: #b7fff6;
+    --color-paleturquoise-200: rgba(183, 255, 246, 0);
+    --color-navy: #070579;
+
+    /* border radiuses */
+    --br-5xs: 8px;
+    --br-xl: 20px;
   }
 }
 
 body {
+  margin: 0;
+  line-height: normal;
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
+  background: linear-gradient(to bottom,
       transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+      rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
 }
