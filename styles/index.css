@@ -1,4 +1,4 @@
-.header-bg {
+/* .header-bg {
   position: absolute;
   top: 0;
   left: 0;
@@ -6,9 +6,11 @@
   width: 1440px;
   height: 110px;
 }
+
 .log-in-sign {
   position: relative;
 }
+
 .navigation {
   position: absolute;
   top: 70px;
@@ -19,17 +21,20 @@
   align-items: center;
   justify-content: center;
 }
+
 .header {
   position: absolute;
   width: 1440px;
   height: 110px;
 }
+
 .header {
   top: 0;
   left: 0;
   text-align: left;
   font-size: var(--font-size-lg);
 }
+
 .cafe4-d-1-icon {
   position: absolute;
   top: 0;
@@ -38,6 +43,7 @@
   height: 820px;
   object-fit: cover;
 }
+
 .sign-up-icon {
   position: absolute;
   top: 733px;
@@ -45,6 +51,7 @@
   width: 118px;
   height: 33.4px;
 }
+
 .hero-item,
 .nft-child {
   position: absolute;
@@ -53,6 +60,7 @@
   width: 78.79px;
   height: 31.6px;
 }
+
 .nft-child {
   top: 0;
   left: 0;
@@ -60,12 +68,14 @@
   width: 159px;
   height: 45px;
 }
+
 .with-nft {
   position: absolute;
   top: 6px;
   left: 16.5px;
   text-shadow: 0 4px 4px rgba(0, 0, 0, 0.5);
 }
+
 .nft {
   position: absolute;
   top: 446px;
@@ -73,6 +83,7 @@
   width: 159px;
   height: 45px;
 }
+
 .sign-up {
   position: absolute;
   top: 738px;
@@ -83,12 +94,13 @@
   width: 83px;
   height: 23px;
 }
+
 .hero-child {
   position: absolute;
   width: 1440px;
   height: 110px;
   top: 820px;
-  left:120px;
+  left: 120px;
   background-color: var(--color-paleturquoise-100);
 }
 
@@ -99,15 +111,16 @@
   left: 706px;
   font-family: var(--font-noto-sans-jp);
 }
+
 .div1 {
   top: 519px;
   left: 400px;
   font-size: var(--font-size-21xl);
   text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-}
-.the-street {
-  margin: 0;
-}
+} */
+
+
+/* 
 .the-street-gallery-container {
   position: absolute;
   top: 0px;
@@ -117,6 +130,7 @@
   white-space: pre-wrap;
   text-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
 }
+
 .welcome-to {
   position: absolute;
   top: 118px;
@@ -125,7 +139,23 @@
   letter-spacing: 0.2em;
   font-family: var(--font-istok-web);
   text-align: center;
+} */
+
+/* .home {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 7576px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-5xl);
+  color: var(--color-dimgray);
+  font-family: var(--font-inter);
 }
+.the-street {
+  margin: 0;
+}
+
 .hero {
   position: absolute;
   top: 110px;
@@ -135,13 +165,14 @@
   font-size: var(--font-size-xl);
   color: var(--color-white);
   font-family: var(--font-michroma);
-}
-img.cafe4-d-1-icon{
- width: 1440px;
- height: 930px;
+} */
+
+img.cafe4-d-1-icon {
+  width: 1440px;
+  height: 930px;
 }
 
-.shop1-icon,
+/* .shop1-icon,
 .shop4-icon,
 .shop5-icon,
 .shop7-icon {
@@ -197,7 +228,7 @@ img.cafe4-d-1-icon{
 .shop10-icon {
   left: 958.31px;
   width: 160.22px;
-}
+} */
 .gradation-1-icon,
 .shop5-parent {
   position: absolute;
@@ -206,12 +237,14 @@ img.cafe4-d-1-icon{
   width: 1440px;
   height: 162.05px;
 }
+
 .gradation-1-icon {
   top: 0;
   left: 1.04px;
   height: 767.95px;
   object-fit: cover;
 }
+
 .concept-the-street-container {
   position: absolute;
   top: 32px;
@@ -221,23 +254,27 @@ img.cafe4-d-1-icon{
   width: 829px;
   height: 705px;
 }
+
 .artlists-child,
 .concept {
   position: absolute;
   left: 0;
   width: 1440px;
 }
+
 .concept {
   top: 1040px;
   height: 930px;
   font-size: smaller;
   color: var(--color-navy);
 }
+
 .artlists-child {
   top: 0;
   background-color: var(--color-paleturquoise-100);
   height: 3827px;
 }
+
 .more {
   position: absolute;
   top: 3629px;
@@ -248,6 +285,7 @@ img.cafe4-d-1-icon{
   line-height: 50px;
   font-weight: 600;
 }
+
 .group-child {
   position: absolute;
   top: 0;
@@ -258,9 +296,11 @@ img.cafe4-d-1-icon{
   width: 373px;
   height: 78px;
 }
+
 .uuu {
   text-decoration: underline;
 }
+
 .uuu-v-container {
   position: absolute;
   top: 14px;
@@ -270,6 +310,7 @@ img.cafe4-d-1-icon{
   display: inline-block;
   width: 373px;
 }
+
 .rectangle-parent {
   position: absolute;
   top: 3508px;
@@ -277,6 +318,7 @@ img.cafe4-d-1-icon{
   width: 373px;
   height: 78px;
 }
+
 .rectangle-container,
 .rectangle-div,
 .rectangle-group {
@@ -286,16 +328,19 @@ img.cafe4-d-1-icon{
   width: 373px;
   height: 78px;
 }
+
 .rectangle-container,
 .rectangle-div {
   left: 119px;
 }
+
 .rectangle-div {
   top: 0;
   left: 0;
   background-color: var(--color-white);
   height: 373px;
 }
+
 .unsplashjhog6v6riis-icon {
   position: absolute;
   top: 20px;
@@ -304,6 +349,7 @@ img.cafe4-d-1-icon{
   height: 333px;
   object-fit: cover;
 }
+
 .group-div {
   position: absolute;
   top: 3105px;
@@ -311,6 +357,7 @@ img.cafe4-d-1-icon{
   width: 373px;
   height: 373px;
 }
+
 .unsplashlo7venj-ywm-icon {
   position: absolute;
   top: 21px;
@@ -319,6 +366,7 @@ img.cafe4-d-1-icon{
   height: 333px;
   object-fit: cover;
 }
+
 .rectangle-parent1 {
   position: absolute;
   top: 3105px;
@@ -326,6 +374,7 @@ img.cafe4-d-1-icon{
   width: 373px;
   height: 373px;
 }
+
 .unsplashczofj2jw0es-icon {
   position: absolute;
   top: 21px;
@@ -334,6 +383,7 @@ img.cafe4-d-1-icon{
   height: 333px;
   object-fit: cover;
 }
+
 .rectangle-parent2 {
   position: absolute;
   top: 3105px;
@@ -341,6 +391,7 @@ img.cafe4-d-1-icon{
   width: 373px;
   height: 373px;
 }
+
 .rectangle-parent3,
 .rectangle-parent4,
 .rectangle-parent5 {
@@ -350,13 +401,16 @@ img.cafe4-d-1-icon{
   width: 373px;
   height: 78px;
 }
+
 .rectangle-parent4,
 .rectangle-parent5 {
   left: 532px;
 }
+
 .rectangle-parent5 {
   left: 119px;
 }
+
 .unsplashjhog6v6riis-icon1 {
   position: absolute;
   top: 14px;
@@ -365,6 +419,7 @@ img.cafe4-d-1-icon{
   height: 345px;
   object-fit: cover;
 }
+
 .rectangle-parent6 {
   position: absolute;
   top: 2542px;
@@ -372,6 +427,7 @@ img.cafe4-d-1-icon{
   width: 373px;
   height: 373px;
 }
+
 .unsplashlo7venj-ywm-icon1 {
   position: absolute;
   top: 18px;
@@ -380,6 +436,7 @@ img.cafe4-d-1-icon{
   height: 333px;
   object-fit: cover;
 }
+
 .rectangle-parent7 {
   position: absolute;
   top: 2542px;
@@ -387,6 +444,7 @@ img.cafe4-d-1-icon{
   width: 373px;
   height: 373px;
 }
+
 .unsplash5r1jmvan-bi-icon {
   position: absolute;
   top: 19px;
@@ -395,6 +453,7 @@ img.cafe4-d-1-icon{
   height: 333px;
   object-fit: cover;
 }
+
 .rectangle-parent8 {
   position: absolute;
   top: 2540px;
@@ -402,6 +461,7 @@ img.cafe4-d-1-icon{
   width: 373px;
   height: 373px;
 }
+
 .rectangle-parent10,
 .rectangle-parent11,
 .rectangle-parent9 {
@@ -411,13 +471,16 @@ img.cafe4-d-1-icon{
   width: 373px;
   height: 78px;
 }
+
 .rectangle-parent10,
 .rectangle-parent11 {
   left: 532px;
 }
+
 .rectangle-parent11 {
   left: 119px;
 }
+
 .unsplashpgdw-bhdbpi-icon {
   position: absolute;
   top: 21px;
@@ -426,6 +489,7 @@ img.cafe4-d-1-icon{
   height: 333px;
   object-fit: cover;
 }
+
 .rectangle-parent12,
 .rectangle-parent13 {
   position: absolute;
@@ -434,9 +498,11 @@ img.cafe4-d-1-icon{
   width: 373px;
   height: 373px;
 }
+
 .rectangle-parent13 {
   left: 532px;
 }
+
 .unsplashd2w-1ljioq-icon {
   position: absolute;
   top: 21px;
@@ -445,6 +511,7 @@ img.cafe4-d-1-icon{
   height: 333px;
   object-fit: cover;
 }
+
 .rectangle-parent14 {
   position: absolute;
   top: 1977px;
@@ -452,6 +519,7 @@ img.cafe4-d-1-icon{
   width: 373px;
   height: 373px;
 }
+
 .rectangle-parent15,
 .rectangle-parent16,
 .rectangle-parent17 {
@@ -461,13 +529,16 @@ img.cafe4-d-1-icon{
   width: 373px;
   height: 78px;
 }
+
 .rectangle-parent16,
 .rectangle-parent17 {
   left: 532px;
 }
+
 .rectangle-parent17 {
   left: 119px;
 }
+
 .rectangle-parent18,
 .rectangle-parent19 {
   position: absolute;
@@ -476,9 +547,11 @@ img.cafe4-d-1-icon{
   width: 373px;
   height: 373px;
 }
+
 .rectangle-parent19 {
   left: 532px;
 }
+
 .unsplashd2w-1ljioq-icon1 {
   position: absolute;
   top: 20px;
@@ -487,6 +560,7 @@ img.cafe4-d-1-icon{
   height: 333px;
   object-fit: cover;
 }
+
 .rectangle-parent20,
 .rectangle-parent21 {
   position: absolute;
@@ -495,11 +569,13 @@ img.cafe4-d-1-icon{
   width: 373px;
   height: 373px;
 }
+
 .rectangle-parent21 {
   top: 1254px;
   left: 946px;
   height: 78px;
 }
+
 .rectangle-icon,
 .rectangle-parent22,
 .rectangle-parent23 {
@@ -509,10 +585,12 @@ img.cafe4-d-1-icon{
   width: 373px;
   height: 78px;
 }
+
 .rectangle-icon,
 .rectangle-parent23 {
   left: 119px;
 }
+
 .rectangle-icon {
   height: 89.28%;
   width: 89.28%;
@@ -525,6 +603,7 @@ img.cafe4-d-1-icon{
   max-height: 100%;
   object-fit: cover;
 }
+
 .rectangle-parent24,
 .rectangle-parent25,
 .rectangle-parent26 {
@@ -534,13 +613,16 @@ img.cafe4-d-1-icon{
   width: 373px;
   height: 373px;
 }
+
 .rectangle-parent25,
 .rectangle-parent26 {
   left: 532px;
 }
+
 .rectangle-parent26 {
   left: 119px;
 }
+
 .rectangle-parent27,
 .rectangle-parent28,
 .rectangle-parent29 {
@@ -550,13 +632,16 @@ img.cafe4-d-1-icon{
   width: 373px;
   height: 78px;
 }
+
 .rectangle-parent28,
 .rectangle-parent29 {
   left: 532px;
 }
+
 .rectangle-parent29 {
   left: 119px;
 }
+
 .unsplashpgdw-bhdbpi-icon2 {
   position: absolute;
   top: 20px;
@@ -565,6 +650,7 @@ img.cafe4-d-1-icon{
   height: 333px;
   object-fit: cover;
 }
+
 .rectangle-parent30,
 .rectangle-parent31,
 .rectangle-parent32 {
@@ -574,14 +660,17 @@ img.cafe4-d-1-icon{
   width: 373px;
   height: 373px;
 }
+
 .rectangle-parent31,
 .rectangle-parent32 {
   top: 302px;
   left: 533px;
 }
+
 .rectangle-parent32 {
   left: 112px;
 }
+
 .art-lists {
   position: absolute;
   top: 148px;
@@ -592,26 +681,30 @@ img.cafe4-d-1-icon{
   display: inline-block;
   width: 466px;
 }
+
 .artlists,
 .gradation-3-icon {
   position: absolute;
   left: 0;
   width: 1440px;
 }
+
 .artlists {
   top: 1970px;
   height: 3827px;
   font-size: var(--font-size-base);
 }
-.list-text{
-  font-size: 20px
 
+.list-text {
+  font-size: 20px
 }
+
 .gradation-3-icon {
   top: 0;
   height: 930px;
   object-fit: cover;
 }
+
 .street-gallery {
   position: absolute;
   top: 746px;
@@ -624,6 +717,7 @@ img.cafe4-d-1-icon{
   width: 1192px;
   height: 59px;
 }
+
 .rectangle-icon5,
 .rectangle-icon6 {
   position: absolute;
@@ -638,10 +732,12 @@ img.cafe4-d-1-icon{
   max-height: 100%;
   object-fit: cover;
 }
+
 .rectangle-icon6 {
   right: 33.24%;
   left: 33.51%;
 }
+
 .unsplashpgdw-bhdbpi-icon3 {
   position: absolute;
   top: 249px;
@@ -650,6 +746,7 @@ img.cafe4-d-1-icon{
   height: 124px;
   object-fit: cover;
 }
+
 .classic {
   position: absolute;
   top: 85px;
@@ -660,6 +757,7 @@ img.cafe4-d-1-icon{
   width: 246px;
   height: 102px;
 }
+
 .rectangle-parent33 {
   position: absolute;
   top: 264px;
@@ -667,6 +765,7 @@ img.cafe4-d-1-icon{
   width: 373px;
   height: 373px;
 }
+
 .rectangle-icon7,
 .unsplashlo7venj-ywm-icon2 {
   position: absolute;
@@ -676,6 +775,7 @@ img.cafe4-d-1-icon{
   height: 124px;
   object-fit: cover;
 }
+
 .rectangle-icon7 {
   height: 33.16%;
   width: 33.24%;
@@ -687,6 +787,7 @@ img.cafe4-d-1-icon{
   overflow: hidden;
   max-height: 100%;
 }
+
 .unsplashlo7venj-ywm-icon3 {
   position: absolute;
   top: 249px;
@@ -695,6 +796,7 @@ img.cafe4-d-1-icon{
   height: 124px;
   object-fit: cover;
 }
+
 .digital {
   position: absolute;
   top: 85px;
@@ -705,6 +807,7 @@ img.cafe4-d-1-icon{
   width: 246px;
   height: 102px;
 }
+
 .rectangle-parent34 {
   position: absolute;
   top: 264px;
@@ -712,6 +815,7 @@ img.cafe4-d-1-icon{
   width: 373px;
   height: 374px;
 }
+
 .rectangle-icon8,
 .unsplashlo7venj-ywm-icon4 {
   position: absolute;
@@ -721,6 +825,7 @@ img.cafe4-d-1-icon{
   height: 124px;
   object-fit: cover;
 }
+
 .rectangle-icon8 {
   height: 34.38%;
   width: 33.24%;
@@ -732,6 +837,7 @@ img.cafe4-d-1-icon{
   overflow: hidden;
   max-height: 100%;
 }
+
 .pop-sweet {
   position: absolute;
   top: 85px;
@@ -742,6 +848,7 @@ img.cafe4-d-1-icon{
   width: 246px;
   height: 102px;
 }
+
 .rectangle-parent35 {
   position: absolute;
   top: 264px;
@@ -749,6 +856,7 @@ img.cafe4-d-1-icon{
   width: 373px;
   height: 380.97px;
 }
+
 .playlists1 {
   position: absolute;
   top: 102px;
@@ -760,23 +868,27 @@ img.cafe4-d-1-icon{
   color: var(--color-dimgray);
   width: 466px;
 }
+
 .contact-child,
 .playlists {
   position: absolute;
   left: 0;
   width: 1440px;
 }
+
 .playlists {
   top: 5796px;
   height: 930px;
   font-size: var(--font-size-17xl);
   color: var(--color-black);
 }
+
 .contact-child {
   top: 0;
   background-color: var(--color-paleturquoise-100);
   height: 700px;
 }
+
 .b,
 .contact-us {
   position: absolute;
@@ -787,6 +899,7 @@ img.cafe4-d-1-icon{
   display: inline-block;
   width: 466px;
 }
+
 .b {
   top: calc(50% - 204px);
   left: calc(50% - 599px);
@@ -794,6 +907,7 @@ img.cafe4-d-1-icon{
   width: 1192px;
   height: 59px;
 }
+
 .shape-with-text {
   position: relative;
   border-radius: var(--br-5xs);
@@ -803,6 +917,7 @@ img.cafe4-d-1-icon{
   width: 930px;
   height: 60px;
 }
+
 .name {
   position: absolute;
   top: calc(50% - 36px);
@@ -811,11 +926,13 @@ img.cafe4-d-1-icon{
   line-height: 150%;
   font-weight: 500;
 }
+
 .shape-with-text-parent {
   position: relative;
   width: 930px;
   height: 84px;
 }
+
 .shape-with-text2 {
   position: relative;
   border-radius: var(--br-5xs);
@@ -825,6 +942,7 @@ img.cafe4-d-1-icon{
   width: 930px;
   height: 120px;
 }
+
 .message {
   position: absolute;
   top: calc(50% - 22px);
@@ -833,6 +951,7 @@ img.cafe4-d-1-icon{
   line-height: 150%;
   font-weight: 500;
 }
+
 .group-parent,
 .shape-with-text-container {
   display: flex;
@@ -842,6 +961,7 @@ img.cafe4-d-1-icon{
   width: 930px;
   height: 145px;
 }
+
 .group-parent {
   display: flex;
   flex-direction: column;
@@ -852,6 +972,7 @@ img.cafe4-d-1-icon{
   font-size: var(--font-size-base);
   color: var(--color-black);
 }
+
 .submit {
   align-items: center;
   position: relative;
@@ -862,32 +983,36 @@ img.cafe4-d-1-icon{
   box-sizing: border-box;
   width: 930px;
   height: 60px;
-  text-align:center;
+  text-align: center;
   font-size: 20px;
   padding-top: 12px;
   color: var(--color-white);
   text-align: auto;
 }
+
 .contact,
 .footer-child {
-    display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
   position: absolute;
   left: 0;
   width: 1440px;
 }
+
 .contact {
   top: 6726px;
   height: 700px;
   font-size: var(--font-size-13xl);
 }
+
 .footer-child {
   top: 0;
   background-color: var(--color-midnightblue);
   height: 150px;
 }
+
 .snsinstagram-icon {
   height: 26.67%;
   width: 2.78%;
@@ -898,12 +1023,14 @@ img.cafe4-d-1-icon{
   max-width: 100%;
   max-height: 100%;
 }
+
 .snsfacebook-icon,
 .snsinstagram-icon,
 .x-icon {
   position: absolute;
   overflow: hidden;
 }
+
 .snsfacebook-icon {
   height: 26.67%;
   width: 2.78%;
@@ -914,12 +1041,14 @@ img.cafe4-d-1-icon{
   max-width: 100%;
   max-height: 100%;
 }
+
 .x-icon {
   top: 34px;
   left: 1150px;
   width: 40px;
   height: 40px;
 }
+
 .artvisionaries {
   position: absolute;
   top: 28px;
@@ -929,6 +1058,7 @@ img.cafe4-d-1-icon{
   width: 264px;
   height: 52px;
 }
+
 .footer {
   position: absolute;
   top: 7426px;
@@ -937,15 +1067,4 @@ img.cafe4-d-1-icon{
   height: 150px;
   text-align: left;
   color: var(--color-white);
-}
-.home {
-  position: relative;
-  background-color: var(--color-white);
-  width: 100%;
-  height: 7576px;
-  overflow: hidden;
-  text-align: center;
-  font-size: var(--font-size-5xl);
-  color: var(--color-dimgray);
-  font-family: var(--font-inter);
 }

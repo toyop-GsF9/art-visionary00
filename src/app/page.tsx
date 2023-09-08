@@ -1,465 +1,132 @@
-import Image from 'next/image'
+import React from 'react';
 
-export default function Home() {
+const Home: React.FC = () => {
+
   return (
-    <>
-      <meta charSet="utf-8" />
-      <meta name="viewport" content="initial-scale=1, width=device-width" />
-      <link rel="stylesheet" href="./global.css" />
-      <link rel="stylesheet" href="./index.css" />
-      <link
-        rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
-      />
-      <link
-        rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Michroma:wght@400&display=swap"
-      />
-      <link
-        rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Noto Sans JP:wght@400&display=swap"
-      />
-      <link
-        rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Istok Web:wght@700&display=swap"
-      />
-      <div className="home">
-        <div className="header">
-          <div className="header-bg" />
-          <div className="navigation">
-            <div className="log-in-sign">log in / sign up</div>
-          </div>
-        </div>
-        <div className="hero">
-          <img
-            className="cafe4-d-1-icon"
-            alt="ギャラリー"
-            src="../public/img/cafe4-d-1@2x.png"
-          />
-          <img className="sign-up-icon" alt="" src="../img/sign-up.svg" />
-          <img className="hero-item" alt="" src="../img/vector-1.svg" />
-          <div className="hero-child" />
-          <div className="nft">
-            <img className="nft-child" alt="" src="../img/rectangle-2.svg" />
-            <div className="with-nft">with NFT</div>
-          </div>
-          <div className="sign-up">sign up</div>
-          <div className="div">アートでつながる世界を作ろう</div>
-          <div className="div1">アーチストとアーチストを応援する人の新たな関係</div>
-          <div className="the-street-gallery-container">
-            <p className="title">ArtVisionary</p>
-          </div>
-          <b className="welcome-to">WELCOME TO</b>
-        </div>
-        <div className="concept">
-          <div className="shop5-parent">
-            <img className="shop5-icon" alt="" src="../img/shop5@2x.png" />
-            <img className="shop1-icon" alt="" src="../img/shop1@2x.png" />
-            <img className="shop7-icon" alt="" src="../img/shop7@2x.png" />
-            <img className="shop4-icon" alt="" src="../img/shop4@2x.png" />
-            <img className="shop9-icon" alt="" src="../img/shop9@2x.png" />
-            <img className="shop2-icon" alt="" src="../img/shop2@2x.png" />
-            <img className="shop3-icon" alt="" src="../img/shop3@2x.png" />
-            <img className="shop6-icon" alt="" src="../img/shop6@2x.png" />
-            <img className="shop10-icon" alt="" src="../img/shop10@2x.png" />
-          </div>
-          <img
-            className="gradation-1-icon"
-            alt=""
-            src="../img/gradation-1@2x.png"
-          />
-          <b className="concept-the-street-container">
-            <p className="the-street">CONCEPT </p>
-            <p className="the-street">&nbsp;</p>
-            <p className="the-street">
-              ArtVisionaryは、作品を世に出したいアーティストと、
-            </p>
-            <p className="the-street">アートを飾りたい人をつなぐサービスです。</p>
-            <p className="the-street">&nbsp;</p>
-            <p className="the-street">アートは空間を彩るだけでなく</p>
-            <p className="the-street">心に光を届けたり、脳に刺激を送ったり</p>
-            <p className="the-street">生活に活力を生み出します。</p>
-            <p className="the-street">
-              ArtVisionaryはフィジカルな作品もデジタル画像で取り扱います。
-            </p>
-            <p className="the-street">
-              サイネージにより１枚の額に複数の作品を掲出することで
-            </p>
-            <p className="the-street">多くの方が作品に触れる機会を創出します。</p>
-            <p className="the-street">
-              気分や時間帯に合わせて、アートを変えることができ
-            </p>
-            <p className="the-street">これまで以上に楽しみが広がります。</p>
-          </b>
-        </div>
-        <div className="artlists">
-          <div className="artlists-child" />
-          <div className="more">more ...</div>
-          <div className="rectangle-parent">
-            <div className="group-child" />
-            <div className="uuu-v-container">
-              <span className="uuu">UUU</span>｜ 「V」 ｜ ❤️
-            </div>
-          </div>
-          <div className="rectangle-group">
-            <div className="group-child" />
-            <div className="uuu-v-container">
-              <span className="uuu">SSSS</span>｜ T」 ｜ ❤️
-            </div>
-          </div>
-          <div className="rectangle-container">
-            <div className="group-child" />
-            <div className="uuu-v-container">
-              <span className="uuu">Q</span>｜ RRR ｜ ♡
-            </div>
-          </div>
-          <div className="group-div">
-            <div className="rectangle-div" />
-            <img
-              className="unsplashjhog6v6riis-icon"
-              alt=""
-              src="../img/unsplashjhog6v6riis@2x.png"
-            />
-          </div>
-          <div className="rectangle-parent1">
-            <div className="rectangle-div" />
-            <img
-              className="unsplashlo7venj-ywm-icon"
-              alt=""
-              src="../img/unsplashlo7venj-ywm4@2x.png"
-            />
-          </div>
-          <div className="rectangle-parent2">
-            <div className="rectangle-div" />
-            <img
-              className="unsplashczofj2jw0es-icon"
-              alt=""
-              src="../img/unsplashczofj2jw0es@2x.png"
-            />
-          </div>
-          <div className="rectangle-parent3">
-            <div className="group-child" />
-            <div className="uuu-v-container">
-              <span className="uuu">OOOOO</span>｜ 「PPPPP」 ｜ ♡
-            </div>
-          </div>
-          <div className="rectangle-parent4">
-            <div className="group-child" />
-            <div className="uuu-v-container">
-              <span className="uuu">NN</span>｜ 「MMMM」 ｜ ♡
-            </div>
-          </div>
-          <div className="rectangle-parent5">
-            <div className="group-child" />
-            <div className="uuu-v-container">
-              <span className="uuu">KK</span>｜ 「LLLL」 ｜ ♡
-            </div>
-          </div>
-          <div className="rectangle-parent6">
-            <div className="rectangle-div" />
-            <img
-              className="unsplashjhog6v6riis-icon1"
-              alt=""
-              src="../img/unsplashjhog6v6riis1@2x.png"
-            />
-          </div>
-          <div className="rectangle-parent7">
-            <div className="rectangle-div" />
-            <img
-              className="unsplashlo7venj-ywm-icon1"
-              alt=""
-              src="../img/unsplashlo7venj-ywm5@2x.png"
-            />
-          </div>
-          <div className="rectangle-parent8">
-            <div className="rectangle-div" />
-            <img
-              className="unsplash5r1jmvan-bi-icon"
-              alt=""
-              src="../img/unsplash5r1jmvan-bi@2x.png"
-            />
-          </div>
-          <div className="rectangle-parent9">
-            <div className="group-child" />
-            <div className="uuu-v-container">
-              <span className="uuu">BBB</span>｜ 「DDDDD」 ｜ ♡
-            </div>
-          </div>
-          <div className="rectangle-parent10">
-            <div className="group-child" />
-            <div className="uuu-v-container">
-              <span className="uuu">AAAA</span>｜ 「thin」 ｜ ♡
-            </div>
-          </div>
-          <div className="rectangle-parent11">
-            <div className="group-child" />
-            <div className="uuu-v-container">
-              <span className="uuu">LUKE</span>｜ 「Cube」 ｜ ♡
-            </div>
-          </div>
-          <div className="rectangle-parent12">
-            <div className="rectangle-div" />
-            <img
-              className="unsplashpgdw-bhdbpi-icon"
-              alt=""
-              src="../img/unsplashpgdw-bhdbpi1@2x.png"
-            />
-          </div>
-          <div className="rectangle-parent13">
-            <div className="rectangle-div" />
-            <img
-              className="unsplashpgdw-bhdbpi-icon"
-              alt=""
-              src="../img/unsplashg5a5znjs2te@2x.png"
-            />
-          </div>
-          <div className="rectangle-parent14">
-            <div className="rectangle-div" />
-            <img
-              className="unsplashd2w-1ljioq-icon"
-              alt=""
-              src="../img/unsplashd2w-1ljioq@2x.png"
-            />
-          </div>
-          <div className="rectangle-parent15">
-            <div className="group-child" />
-            <div className="uuu-v-container">
-              <span className="uuu">住吉シゲ</span>｜ 「キューブ」 ｜　♡
-            </div>
-          </div>
-          <div className="rectangle-parent16">
-            <div className="group-child" />
-            <div className="uuu-v-container">
-              <span className="uuu">川村NANA</span> ｜ 「lightⅥ」 ｜ ♡
-            </div>
-          </div>
-          <div className="rectangle-parent17">
-            <div className="group-child" />
-            <div className="uuu-v-container">
-              <span className="uuu">川村NANA</span>｜ 「lightⅤ」 ｜ ♡
-            </div>
-          </div>
-          <div className="rectangle-parent18">
-            <div className="rectangle-div" />
-            <img
-              className="unsplashjhog6v6riis-icon"
-              alt=""
-              src="../img/unsplashpgdw-bhdbpi2@2x.png"
-            />
-          </div>
-          <div className="rectangle-parent19">
-            <div className="rectangle-div" />
-            <img
-              className="unsplashjhog6v6riis-icon"
-              alt=""
-              src="../img/unsplashg5a5znjs2te1@2x.png"
-            />
-          </div>
-          <div className="rectangle-parent20">
-            <div className="rectangle-div" />
-            <img
-              className="unsplashd2w-1ljioq-icon1"
-              alt=""
-              src="../img/unsplashd2w-1ljioq1@2x.png"
-            />
-          </div>
-          <div className="rectangle-parent21">
-            <div className="group-child" />
-            <div className="uuu-v-container">
-              <span className="uuu">楊悟</span> ｜ 「NARA」 ｜ ♡
-            </div>
-          </div>
-          <div className="rectangle-parent22">
-            <div className="group-child" />
-            <div className="uuu-v-container">
-              <span className="uuu">中島ケイタ</span> ｜ 「React」 ｜ ♡
-            </div>
-          </div>
-          <div className="rectangle-parent23">
-            <div className="group-child" />
-            <div className="uuu-v-container">
-              <span className="uuu">中島ケイタ </span>｜ 「The Day」 ｜ ♡
-            </div>
-          </div>
-          <div className="rectangle-parent24">
-            <div className="rectangle-div" />
-            <img
-              className="rectangle-icon"
-              alt=""
-              src="../img/rectangle4@2x.png"
-            />
-          </div>
-          <div className="rectangle-parent25">
-            <div className="rectangle-div" />
-            <img
-              className="rectangle-icon"
-              alt=""
-              src="../img/rectangle5@2x.png"
-            />
-          </div>
-          <div className="rectangle-parent26">
-            <div className="rectangle-div" />
-            <img
-              className="rectangle-icon"
-              alt=""
-              src="../img/rectangle6@2x.png"
-            />
-          </div>
-          <div className="rectangle-parent27">
-            <div className="group-child" />
-            <div className="uuu-v-container">
-              <span className="uuu">リンゴ</span> ｜ 「CAAAT」｜ ♡
-            </div>
-          </div>
-          <div className="rectangle-parent28">
-            <div className="group-child" />
-            <div className="uuu-v-container">
-              <span className="uuu">UGO</span> ｜ 「金色の犬」 ｜❤️
-            </div>
-          </div>
-          <div className="rectangle-parent29">
-            <div className="group-child" />
-            <div className="uuu-v-container">
-              <span className="uuu">shin tanaka</span> ｜ リトルモンスター ｜ ❤️
-            </div>
-          </div>
-          <div className="rectangle-parent30">
-            <div className="rectangle-div" />
-            <img
-              className="unsplashpgdw-bhdbpi-icon2"
-              alt=""
-              src="../img/unsplashpgdw-bhdbpi3@2x.png"
-            />
-          </div>
-          <div className="rectangle-parent31">
-            <div className="rectangle-div" />
-            <img
-              className="rectangle-icon"
-              alt=""
-              src="../img/rectangle7@2x.png"
-            />
-          </div>
-          <div className="rectangle-parent32">
-            <div className="rectangle-div" />
-            <img
-              className="rectangle-icon"
-              alt=""
-              src="../img/rectangle8@2x.png"
-            />
-          </div>
-          <b className="art-lists">Art Lists</b>
-          <b className="list-text">
-            いいね♡してみてください。好きなアートをあなたのお気に入りの場所でご覧いただけます。
-          </b>
-        </div>
-        <div className="playlists">
-          <img
-            className="gradation-3-icon"
-            alt=""
-            src="../img/gradation-3@2x.png"
-          />
-          <b className="street-gallery">
-            <p className="the-street">
-              Art Visionary
-              がテーマごとにピックした作品集です。おまかせで楽しみたい方はこちらをどうぞ。
-            </p>
-          </b>
-          <div className="rectangle-parent33">
-            <div className="rectangle-div" />
-            <img
-              className="rectangle-icon5"
-              alt=""
-              src="../img/rectangle@2x.png"
-            />
-            <img
-              className="rectangle-icon6"
-              alt=""
-              src="../img/rectangle1@2x.png"
-            />
-            <img
-              className="unsplashpgdw-bhdbpi-icon3"
-              alt=""
-              src="../img/unsplashpgdw-bhdbpi@2x.png"
-            />
-            <b className="classic">CLASSIC</b>
-          </div>
-          <div className="rectangle-parent34">
-            <div className="rectangle-div" />
-            <img
-              className="unsplashlo7venj-ywm-icon2"
-              alt=""
-              src="../img/unsplashlo7venj-ywm@2x.png"
-            />
-            <img
-              className="rectangle-icon7"
-              alt=""
-              src="../img/rectangle2@2x.png"
-            />
-            <img
-              className="unsplashlo7venj-ywm-icon3"
-              alt=""
-              src="../img/unsplashlo7venj-ywm1@2x.png"
-            />
-            <b className="digital">DIGITAL</b>
-          </div>
-          <div className="rectangle-parent35">
-            <div className="rectangle-div" />
-            <img
-              className="unsplashlo7venj-ywm-icon4"
-              alt=""
-              src="../img/unsplashlo7venj-ywm2@2x.png"
-            />
-            <img
-              className="rectangle-icon8"
-              alt=""
-              src="../img/rectangle3@2x.png"
-            />
-            <img
-              className="unsplashpgdw-bhdbpi-icon3"
-              alt=""
-              src="../img/unsplashlo7venj-ywm3@2x.png"
-            />
-            <b className="pop-sweet">POP &amp; SWEET</b>
-          </div>
-          <b className="playlists1">Playlists</b>
-        </div>
-        <div className="contact">
-          <div className="contact-child" />
-          <b className="contact-us">Contact us</b>
-          <b className="b">サービス・アーチストに関してのお問い合わせはこちらへ</b>
-          <div className="group-parent">
-            <div className="shape-with-text-parent">
-              <div className="shape-with-text" />
-              <div className="name">Name</div>
-            </div>
-            <div className="shape-with-text-parent">
-              <div className="shape-with-text" />
-              <div className="name">Mail</div>
-            </div>
-            <div className="shape-with-text-container">
-              <div className="shape-with-text2" />
-              <div className="message">Message</div>
-            </div>
-            <div className="submit">Submit</div>
-          </div>
-        </div>
-        <div className="footer">
-          <div className="footer-child" />
-          <img
-            className="snsinstagram-icon"
-            alt=""
-            src="../img/snsinstagram.svg"
-          />
-          <img
-            className="snsfacebook-icon"
-            alt=""
-            src="../img/property-1white.svg"
-          />
-          <img className="x-icon" alt="" src="../img/x.svg" />
-          <b className="artvisionaries">Artvisionary</b>
+    <div className="home relative bg-white w-full h-[7576px] overflow-hidden text-center text-[var(--font-size-5xl)] text-[var(--color-dimgray)] font-[var(--font-inter)]">
+      <div className="header absolute w-[1440px] h-[110px] top-0 left-0 text-left text-lg">
+        <div className="header-bg absolute top-0 left-0 bg-paleturquoise-100 w-[1440px] h-[110px]"></div>
+        <div className="navigation absolute top-[70px] left-[calc(50% + 395px)] w-[229px] flex flex-row items-center justify-center">
+          <div className="log-in-sign relative">log in/ sign up</div>
         </div>
       </div>
-    </>
+      <div className="hero absolute top-[110px] -left-[120px] w-[1440px] h-[930px] text-[var(--font-size-xl)] text-white font-[var(--font-michroma)]">
+        <img className="cafe4-d-1-icon absolute top-0 left-[120px] w-[1440px] h-[820px] object-cover" alt="" src="/img/cafe4-d-1@2x.png" />
+        <img className="sign-up-icon absolute top-[733px] left-[802px] w-[118px] h-[33.4px]" alt="" src="/img/sign-up.svg" />
+        <img className="hero-item absolute top-[684.77px] left-[818.14px] w-[78.79px] h-[31.6px]" alt="" src="/img/vector-1.svg" />
+        <div className="hero-child absolute w-[1440px] h-[110px] top-[820px] left-[120px] bg-paleturquoise-100"></div>
+        <div className="nft absolute top-[446px] left-[1110px] w-[159px] h-[45px]">
+          <img className="nft-child absolute top-0 left-0 w-[159px] h-[45px] rounded-[1rem]" alt="" src="/img/rectangle-2.svg" />
+          <div className="with-nft absolute top-[6px] left-[16.5px] text-shadow-[0 4px 4px rgba(0, 0, 0, 0.5)]">with NFT</div>
+        </div>
+        <div className="sign-up absolute top-[738px] left-[815px] text-base leading-[16px] inline-block w-[83px] h-[23px]">sign up</div>
+        <div className="div absolute top-[637px] left-[706px] font-noto-sans-jp">アートでつながる世界を作ろう</div>
+        <div className="div1 absolute top-[519px] left-[403px] text-21xl text-shadow-[0 4px 4px rgba(0, 0, 0, 0.25)] font-noto-sans-jp">アーチストとアーチストを応援する人の新たな関係</div>
+        <div className="the-street-gallery-container absolute top-0 left-[450px] text-77xl leading-[110px] whitespace-pre-wrap text-shadow-[0 5px 5px rgba(0, 0, 0, 0.5)]">
+          <p className="the-street m-0">ArtVisionary</p>
+        </div>
+        <b className="welcome-to absolute top-[118px] left-[740px] text-5xl tracking-[0.2em] font-istok-web text-center">WELCOME TO</b>
+      </div>
+      <div className="concept absolute top-[1040px] h-[930px] text-sm text-[var(--color-navy)] top-1040 h-930 text-navy">
 
-  )
+        <div className="shop5-parent absolute top-[767.95px] left-0 w-[1440px] h-[162.05px]">
+          <img className="shop5-icon absolute top-0 left-1118.53 w-159.22 h-162.05 object-cover" alt="" src="/img/shop5@2x.png" />
+          <img className="shop1-icon absolute top-0 left-160.22 w-159.22 h-162.05 object-cover" alt="" src="/img/shop1@2x.png" />
+          <img className="shop7-icon absolute top-0 left-160.22 w-159.22 h-162.05 object-cover" alt="" src="/img/shop7@2x.png" />
+          <img className="shop4-icon absolute top-0 left-479.65 w-160.22 h-162.05 object-cover" alt="" src="/img/shop4@2x.png" />
+          <img className="shop9-icon absolute top-0 left-0 w-160.22 h-162.05 object-cover" alt="" src="/img/shop9@2x.png" />
+          <img className="shop2-icon absolute top-0 left-319.44 w-160.22 h-162.05 object-cover" alt="" src="/img/shop2@2x.png" />
+          <img className="shop3-icon absolute top-0 left-319.44 w-160.22 h-162.05 object-cover" alt="" src="/img/shop3@2x.png" />
+          <img className="shop6-icon absolute top-0 left-319.44 w-159.22 h-162.05 object-cover" alt="" src="/img/shop6@2x.png" />
+          <img className="shop10-icon absolute top-0 left-319.44 w-160.22 h-162.05 object-cover" alt="" src="/img/shop10@2x.png" />
+        </div>
+
+        <img className="gradation-1-icon" alt="" src="/img/gradation-1@2x.png" />
+        <b className="concept-the-street-container absolute top-0 left-[1.04px] h-[767.95px] object-cover">
+          <p className="the-street">
+            ArtVisionaryは、作品を世に出したいアーティストと、
+          </p>
+          <p className="the-street">アートを飾りたい人をつなぐサービスです。</p>
+          {/* 他のテキスト */}
+        </b>
+      </div>
+      <div className="artlists">
+        {/* 他のアートリストコンポーネント */}
+        <div className="artlists-child absolute left-0 w-1440 top-0 bg-paleturquoise-100 h-3827">
+          <b className="art-lists">Art Lists</b>
+          <div className="rectangle-parent">
+            <div className="group-child"></div>
+            <img className="rectangle-icon" alt="" src="/img/rectangle8@2x.png" />
+          </div>
+          <div className="rectangle-group">
+            <div className="group-child"></div>
+            <img className="rectangle-icon" alt="" src="/img/rectangle7@2x.png" />
+          </div>
+          <div className="rectangle-container">
+            <div className="group-child"></div>
+            <img
+              className="unsplashpgdw-bhdbpi-icon"
+              alt=""
+              src="/img/unsplashpgdw-bhdbpi3@2x.png"
+            />
+          </div>
+          <div className="group-div">
+            <div className="rectangle-div"></div>
+            <div className="shin-tanaka-container">
+              <span className="shin-tanaka">shin tanaka</span> ｜ リトルモンスター ｜
+              ❤ ️｜ 0.01
+            </div>
+            <img className="ethereum-1-icon" alt="" src="/img/ethereum-1@2x.png" />
+          </div>
+          <div className="rectangle-parent1">
+            <div className="rectangle-div"></div>
+            <div className="shin-tanaka-container">
+              <span className="shin-tanaka">UGO</span> ｜ 「金色の犬」 ｜ ❤️ ️ ｜ 0.01
+            </div>
+            <img className="ethereum-1-icon1" alt="" src="/img/ethereum-1@2x.png" />
+          </div>
+        </div>
+        <div className="more">more ...</div>
+      </div>
+
+      <div className="playlists">
+        <img className="gradation-3-icon" alt="" src="/img/gradation-3@2x.png" />
+        <b className="street-gallery">
+          <p className="the-street">
+            Street Galleryがテーマごとにピックした作品集です。おまかせで楽しみたい方はこちらをどうぞ。
+          </p>
+        </b>
+        <div className="rectangle-parent33">
+          {/* 他のアイコン画像 */}
+          <b className="classic">CLASSIC</b>
+        </div>
+        <div className="rectangle-parent34">
+          {/* 他のアイコン画像 */}
+          <b className="digital">DIGITAL</b>
+        </div>
+        <div className="rectangle-parent35">
+          {/* 他のアイコン画像 */}
+          <b className="pop-sweet">POP &SWEET</b>
+        </div>
+        <b className="playlists1">Playlists</b>
+      </div>
+      <div className="contact">
+        <div className="contact-child"></div>
+        <b className="contact-us">Contact us</b>
+        <b className="b">サービス・アーチストに関してのお問い合わせはこちらへ</b>
+        <div className="group-parent">
+          {/* 他のフォーム要素 */}
+        </div>
+      </div>
+      <div className="footer">
+        <div className="footer-child"></div>
+        <img className="snsinstagram-icon" alt="" src="/img/snsinstagram.svg" />
+        <img className="snsfacebook-icon" alt="" src="/img/property-1white.svg" />
+        <img className="x-icon" alt="" src="/img/x.svg" />
+        <b className="artvisionaries">Artvisionary</b>
+      </div>
+    </div>
+  );
 }
+
+export default Home;
