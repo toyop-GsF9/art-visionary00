@@ -2,9 +2,9 @@
   position: absolute;
   top: 0;
   left: 0;
-  background-color: var(--color-paleturquoise-100);
+  background-color: #b7fff6;
   width: 1440px;
-  height: 110px;
+  height: 200px;
 }
 
 .log-in-sign {
@@ -13,7 +13,7 @@
 
 .navigation {
   position: absolute;
-  top: 70px;
+  top: 160px;
   left: calc(50% + 395px);
   width: 229px;
   display: flex;
@@ -37,7 +37,7 @@
 
 .cafe4-d-1-icon {
   position: absolute;
-  top: 0;
+  top: 90px;
   left: 120px;
   width: 1440px;
   height: 930px;
@@ -74,6 +74,8 @@
   top: 6px;
   left: 16.5px;
   text-shadow: 0 4px 4px rgba(0, 0, 0, 0.5);
+  font-size: 20px;
+
 }
 
 .nft {
@@ -101,7 +103,7 @@
   height: 110px;
   top: 820px;
   left: 120px;
-  background-color: var(--color-paleturquoise-100);
+  background-color: #b7fff6;
 }
 
 .div,
@@ -115,7 +117,7 @@
 .div1 {
   top: 519px;
   left: 403px;
-  font-size: var(--font-size-21xl);
+  font-size: 40px;
   text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
 
@@ -125,9 +127,9 @@
 
 .the-street-gallery-container {
   position: absolute;
-  top: 0px;
-  left: 450px;
-  font-size: var(--font-size-77xl);
+  top: 250px;
+  left: 550px;
+  font-size: 96px;
   line-height: 110px;
   white-space: pre-wrap;
   text-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
@@ -137,9 +139,9 @@
   position: absolute;
   top: 118px;
   left: 740px;
-  font-size: var(--font-size-5xl);
+  font-size: 24px;
   letter-spacing: 0.2em;
-  font-family: var(--font-istok-web);
+  font-family: "Istok Web";
   text-align: center;
 }
 
@@ -149,9 +151,9 @@
   left: -120px;
   width: 1440px;
   height: 930px;
-  font-size: var(--font-size-xl);
-  color: var(--color-white);
-  font-family: var(--font-michroma);
+  font-size: 20px;
+  color: #fff;
+  font-family: Michroma;
 }
 
 img.cafe4-d-1-icon {
@@ -225,16 +227,16 @@ img.cafe4-d-1-icon {
   width: 160.22px;
 }
 
-.gradation-1-icon,
 .shop5-parent {
   position: absolute;
-  top: 767.95px;
+  top: 927.95px;
   left: 0;
   width: 1438.96px;
   height: 162.05px;
 }
 
 .gradation-1-icon {
+  position: absolute;
   top: 0;
   left: 1.04px;
   height: 767.95px;
@@ -263,13 +265,14 @@ img.cafe4-d-1-icon {
 .concept {
   top: 1040px;
   height: 930px;
-  font-size: smaller;
-  color: var(--color-navy);
+  font-size: 20px;
+  color: #070579;
+  font-weight: bold;
 }
 
 .artlists-child {
   top: 0;
-  background-color: var(--color-paleturquoise-100);
+  background-color: #b7fff6;
   height: 3827px;
 }
 
@@ -1045,7 +1048,7 @@ img.cafe4-d-1-icon {
 
 .contact-child {
   top: 0;
-  background-color: var(--color-paleturquoise-100);
+  background-color: #b7fff6;
   height: 700px;
 }
 
