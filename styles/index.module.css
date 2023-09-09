@@ -40,7 +40,7 @@
   top: 0;
   left: 120px;
   width: 1440px;
-  height: 820px;
+  height: 930px;
   object-fit: cover;
 }
 
@@ -239,6 +239,8 @@ img.cafe4-d-1-icon {
   left: 1.04px;
   height: 767.95px;
   object-fit: cover;
+  width: 1440px;
+  height: 930px;
 }
 
 .concept-the-street-container {
