@@ -1,4 +1,3 @@
-
 import styles from 'styles/index.module.css';
 import Image from '../../node_modules/next/image';
 
@@ -35,7 +34,7 @@ export default function Home() {
         </div>
       </div>
       <div className={styles['hero']}>
-        <div className={styles['cafe4-d-1-icon']} >
+        <div className={`${styles['cafe4-d-1-icon']}`} >
           <Image
             alt=""
             src="/img/cafe4-d-1@2x.png"
@@ -47,8 +46,8 @@ export default function Home() {
           <Image
             alt=""
             src="/img/sign-up.svg"
-            width={83}
-            height={23}
+            width={118}
+            height={33}
           />
         </div>
         <div className={styles['hero-item']}>
@@ -470,66 +469,67 @@ export default function Home() {
           <div className={styles['more']}>more ...</div>
         </div>
 
-        <div className={styles['rectangle-parent33']}>
-          <div className={styles['group-child']}></div>
-          <img className={styles['rectangle-icon5']} alt="" src="./public/rectangle@2x.png" />
+        <div className={styles['playlists']}>
+          <div className={styles['rectangle-parent33']}>
+            <div className={styles['group-child']}></div>
+            <img className={styles['rectangle-icon5']} alt="" src="/img/rectangle@2x.png" />
 
-          <img className={styles['rectangle-icon6']} alt="" src="./public/rectangle1@2x.png" />
+            <img className={styles['rectangle-icon6']} alt="" src="/img/rectangle1@2x.png" />
 
-          <img className={styles['unsplashpgdw-bhdbpi-icon3']} alt="" src="./public/unsplashpgdw-bhdbpi@2x.png" />
+            <img className={styles['unsplashpgdw-bhdbpi-icon3']} alt="" src="/img/unsplashpgdw-bhdbpi@2x.png" />
 
-          <b className={styles['classic']}>CLASSIC</b>
+            <b className={styles['classic']}>CLASSIC</b>
+          </div>
+
+
+          <div className={styles['rectangle-parent34']}>
+            <div className={styles['group-child']}></div>
+            <img
+              className={styles['unsplashlo7venj-ywm-icon2']}
+              alt=""
+              src="/img/unsplashlo7venj-ywm@2x.png"
+            />
+
+            <img
+              className={styles['rectangle-icon7']}
+              alt=""
+              src="/img/rectangle2@2x.png"
+            />
+
+            <img
+              className={styles['unsplashlo7venj-ywm-icon3']}
+              alt=""
+              src="/img/unsplashlo7venj-ywm1@2x.png"
+            />
+
+            <b className={styles['digital']}>DIGITAL</b>
+          </div>
+
+          <div className={styles['rectangle-parent35']}>
+            <div className={styles['group-child']}></div>
+            <img
+              className={styles['unsplashlo7venj-ywm-icon4']}
+              alt=""
+              src="/img/unsplashlo7venj-ywm2@2x.png"
+            />
+
+            <img
+              className={styles['rectangle-icon8']}
+              alt=""
+              src="/img/rectangle3@2x.png"
+            />
+
+            <img
+              className={styles['unsplashpgdw-bhdbpi-icon3']}
+              alt=""
+              src="/img/unsplashlo7venj-ywm3@2x.png"
+            />
+
+            <b className={styles['pop-sweet']}>POP & SWEET</b>
+          </div>
+
+          <b className={styles['playlists1']}>Playlists</b>
         </div>
-
-
-        <div className={styles['rectangle-parent34']}>
-          <div className={styles['group-child']}></div>
-          <img
-            className={styles['unsplashlo7venj-ywm-icon2']}
-            alt=""
-            src="/img/unsplashlo7venj-ywm@2x.png"
-          />
-
-          <img
-            className={styles['rectangle-icon7']}
-            alt=""
-            src="/img/rectangle2@2x.png"
-          />
-
-          <img
-            className={styles['unsplashlo7venj-ywm-icon3']}
-            alt=""
-            src="/img/unsplashlo7venj-ywm1@2x.png"
-          />
-
-          <b className={styles['digital']}>DIGITAL</b>
-        </div>
-
-        <div className={styles['rectangle-parent35']}>
-          <div className={styles['group-child']}></div>
-          <img
-            className={styles['unsplashlo7venj-ywm-icon4']}
-            alt=""
-            src="/img/unsplashlo7venj-ywm2@2x.png"
-          />
-
-          <img
-            className={styles['rectangle-icon8']}
-            alt=""
-            src="/img/rectangle3@2x.png"
-          />
-
-          <img
-            className={styles['unsplashpgdw-bhdbpi-icon3']}
-            alt=""
-            src="/img/unsplashlo7venj-ywm3@2x.png"
-          />
-
-          <b className={styles['pop-sweet']}>POP & SWEET</b>
-        </div>
-
-        <b className={styles['playlists1']}>Playlists</b>
-
         <div className={styles['contact']}>
           <div className={styles['contact-child']}></div>
           <b className={styles['contact-us']}>Contact us</b>
