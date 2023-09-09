@@ -4,7 +4,7 @@ import Image from '../../node_modules/next/image';
 
 export default function Home() {
   return (
-    <div className={styles.home}>
+    <div className={styles['home']}>
       {/* <Head>
         <meta charSet="utf-8" />
         <meta name="viewport" content="initial-scale=1, width=device-width" />
@@ -28,14 +28,14 @@ export default function Home() {
           href="https://fonts.googleapis.com/css2?family=Istok Web:wght@700&display=swap"
         />
       </Head> */}
-      <div className={styles.header}>
+      <div className={styles['header']}>
         <div className={styles['header-bg']}></div>
-        <div className={styles.navigation}>
+        <div className={styles['navigation']}>
           <div className={styles['log-in-sign']}>log in/ sign up</div>
         </div>
       </div>
-      <div className={styles.hero}>
-        <div className={styles['cafe4-d-1-icon']}>
+      <div className={styles['hero']}>
+        <div className={styles['cafe4-d-1-icon']} >
           <Image
             alt=""
             src="/img/cafe4-d-1@2x.png"
@@ -60,7 +60,7 @@ export default function Home() {
           />
         </div>
         <div className={styles['hero-child']}></div>
-        <div className={styles.nft}>
+        <div className={styles['nft']}>
           <div className={styles['nft-child']}>
             <Image
               alt=""
@@ -83,7 +83,7 @@ export default function Home() {
         <b className={styles['welcome-to']}>WELCOME TO</b>
       </div>
 
-      <div className={styles.concept}>
+      <div className={styles['concept']}>
         <div className={styles['shop5-parent']}>
           <img className={styles['shop5-icon']} alt="" src="/img/shop5@2x.png" />
           <img className={styles['shop1-icon']} alt="" src="/img/shop1@2x.png" />
@@ -120,7 +120,7 @@ export default function Home() {
           <p className={styles['the-street']}>これまで以上に楽しみが広がります。</p>
         </div>
 
-        <div className={styles.artlists}>
+        <div className={styles['artlists']}>
           <div className={styles['artlists-child']}></div>
           <b className={styles['art-lists']}>Art Lists</b>
           <div className={styles['rectangle-parent']}>
@@ -298,7 +298,7 @@ export default function Home() {
           <div className={styles['rectangle-parent15']}>
             <div className={styles['group-child']}></div>
             <img
-              className={styles.unsplashd2w1ljioqIcon1}
+              className={styles['unsplashd2w1ljioq-icon1']}
               alt=""
               src="/img/unsplashd2w-1ljioq@2x.png"
             />
@@ -306,7 +306,7 @@ export default function Home() {
           <div className={styles['rectangle-parent16']}>
             <div className={styles['group-child']}></div>
             <img
-              className={styles.unsplashg5a5znjs2teIcon1}
+              className={styles['unsplashg5a5znjs2te-icon1']}
               alt=""
               src="/img/unsplashg5a5znjs2te@2x.png"
             />
@@ -314,7 +314,7 @@ export default function Home() {
           <div className={styles['rectangle-parent17']}>
             <div className={styles['group-child']}></div>
             <img
-              className={styles.unsplashg5a5znjs2teIcon1}
+              className={styles['unsplashg5a5znjs2te-icon1']}
               alt=""
               src="/img/unsplashpgdw-bhdbpi1@2x.png"
             />
@@ -355,7 +355,7 @@ export default function Home() {
           <div className={styles['rectangle-parent21']}>
             <div className={styles['group-child']}></div>
             <img
-              className={styles.unsplash5r1jmvanBiIcon}
+              className={styles['unsplash5r1jmvanBi-icon']}
               alt=""
               src="/img/unsplash5r1jmvan-bi@2x.png"
             />
@@ -363,7 +363,7 @@ export default function Home() {
           <div className={styles['rectangle-parent22']}>
             <div className={styles['group-child']}></div>
             <img
-              className={styles.unsplashlo7venjYwmIcon}
+              className={styles['unsplashlo7venjYwm-icon']}
               alt=""
               src="/img/unsplashlo7venj-ywm5@2x.png"
             />
@@ -371,7 +371,7 @@ export default function Home() {
           <div className={styles['rectangle-parent23']}>
             <div className={styles['group-child']}></div>
             <img
-              className={styles.unsplashjhog6v6riisIcon}
+              className={styles['unsplashjhog6v6riis-icon']}
               alt=""
               src="/img/unsplashjhog6v6riis1@2x.png"
             />
@@ -412,7 +412,7 @@ export default function Home() {
           <div className={styles['rectangle-parent27']}>
             <div className={styles['group-child']}></div>
             <img
-              className={styles.unsplashczofj2jw0esIcon}
+              className={styles['unsplashczofj2jw0es-icon']}
               alt=""
               src="/img/unsplashczofj2jw0es@2x.png"
             />
@@ -420,7 +420,7 @@ export default function Home() {
           <div className={styles['rectangle-parent28']}>
             <div className={styles['group-child']}></div>
             <img
-              className={styles.unsplashlo7venjYwmIcon1}
+              className={styles['unsplashlo7venjYwm-icon']}
               alt=""
               src="/img/unsplashlo7venj-ywm4@2x.png"
             />
@@ -429,7 +429,7 @@ export default function Home() {
           <div className={styles['rectangle-parent29']}>
             <div className={styles['group-child']}></div>
             <img
-              className={styles.unsplashg5a5znjs2teIcon}
+              className={styles['unsplashg5a5znjs2te-icon']}
               alt=""
               src="/img/unsplashjhog6v6riis@2x.png"
             />
@@ -467,14 +467,25 @@ export default function Home() {
               src="/img/ethereum-1@2x.png"
             />
           </div>
-          <div className={styles.more}>more ...</div>
+          <div className={styles['more']}>more ...</div>
+        </div>
+
+        <div className={styles['rectangle-parent33']}>
+          <div className={styles['group-child']}></div>
+          <img className={styles['rectangle-icon5']} alt="" src="./public/rectangle@2x.png" />
+
+          <img className={styles['rectangle-icon6']} alt="" src="./public/rectangle1@2x.png" />
+
+          <img className={styles['unsplashpgdw-bhdbpi-icon3']} alt="" src="./public/unsplashpgdw-bhdbpi@2x.png" />
+
+          <b className={styles['classic']}>CLASSIC</b>
         </div>
 
 
         <div className={styles['rectangle-parent34']}>
           <div className={styles['group-child']}></div>
           <img
-            className={styles.unsplashlo7venjYwmIcon2}
+            className={styles['unsplashlo7venj-ywm-icon2']}
             alt=""
             src="/img/unsplashlo7venj-ywm@2x.png"
           />
@@ -486,18 +497,18 @@ export default function Home() {
           />
 
           <img
-            className={styles.unsplashlo7venjYwmIcon3}
+            className={styles['unsplashlo7venj-ywm-icon3']}
             alt=""
             src="/img/unsplashlo7venj-ywm1@2x.png"
           />
 
-          <b className={styles.digital}>DIGITAL</b>
+          <b className={styles['digital']}>DIGITAL</b>
         </div>
 
         <div className={styles['rectangle-parent35']}>
           <div className={styles['group-child']}></div>
           <img
-            className={styles.unsplashlo7venjYwmIcon4}
+            className={styles['unsplashlo7venj-ywm-icon4']}
             alt=""
             src="/img/unsplashlo7venj-ywm2@2x.png"
           />
@@ -509,57 +520,57 @@ export default function Home() {
           />
 
           <img
-            className={styles.unsplashpgdwBhdbpiIcon3}
+            className={styles['unsplashpgdw-bhdbpi-icon3']}
             alt=""
             src="/img/unsplashlo7venj-ywm3@2x.png"
           />
 
-          <b className={styles.popSweet}>POP & SWEET</b>
+          <b className={styles['pop-sweet']}>POP & SWEET</b>
         </div>
 
-        <b className={styles.playlists1}>Playlists</b>
+        <b className={styles['playlists1']}>Playlists</b>
 
-        <div className={styles.contact}>
-          <div className={styles.contactChild}></div>
-          <b className={styles.contactUs}>Contact us</b>
-          <b className={styles.b}>サービス・アーチストに関してのお問い合わせはこちらへ</b>
-          <div className={styles.groupParent}>
-            <div className={styles.shapeWithTextParent}>
-              <div className={styles.shapeWithText}></div>
-              <div className={styles.name}>Name</div>
+        <div className={styles['contact']}>
+          <div className={styles['contact-child']}></div>
+          <b className={styles['contact-us']}>Contact us</b>
+          <b className={styles['b']}>サービス・アーチストに関してのお問い合わせはこちらへ</b>
+          <div className={styles['group-parent']}>
+            <div className={styles['shape-with-text-parent']}>
+              <div className={styles['shape-with-text']}></div>
+              <div className={styles['name']}>Name</div>
             </div>
-            <div className={styles.shapeWithTextParent}>
-              <div className={styles.shapeWithText}></div>
-              <div className={styles.name}>Mail</div>
+            <div className={styles['shape-with-text-parent']}>
+              <div className={styles['shape-with-text']}></div>
+              <div className={styles['name']}>Mail</div>
             </div>
-            <div className={styles.shapeWithTextContainer}>
-              <div className={styles.shapeWithText2}></div>
-              <div className={styles.message}>Message</div>
+            <div className={styles['shape-with-text-container']}>
+              <div className={styles['shape-with-text2']}></div>
+              <div className={styles['message']}>Message</div>
             </div>
-            <div className={styles.submit}>Submit</div>
+            <div className={styles['submit']}>Submit</div>
           </div>
-        </div>
+        </div >
 
-        <div className={styles.footer}>
-          <div className={styles.footerChild}></div>
+        <div className={styles['footer']}>
+          <div className={styles['footer-child']}></div>
           <img
-            className={styles.snsinstagramIcon}
+            className={styles['snsinstagram-icon']}
             alt=""
             src="/img/snsinstagram.svg"
           />
 
           <img
-            className={styles.snsfacebookIcon}
+            className={styles['snsfacebook-icon']}
             alt=""
             src="/img/property-1white.svg"
           />
 
-          <img className={styles.xIcon} alt="" src="/img/x.svg" />
+          <img className={styles['x-icon']} alt="" src="/img/x.svg" />
 
-          <b className={styles.artvisionaries}>Artvisionary</b>
+          <b className={styles['artvisionaries']}>Artvisionary</b>
         </div>
       </div>
-    </div>
+    </div >
 
   );
 }
