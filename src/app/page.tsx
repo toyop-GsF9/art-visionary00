@@ -29,13 +29,13 @@ export default function Home() {
         />
       </Head> */}
       <div className={styles.header}>
-        <div className={styles.headerbg}></div>
+        <div className={styles['header-bg']}></div>
         <div className={styles.navigation}>
-          <div className={styles.loginsign}>log in/ sign up</div>
+          <div className={styles['log-in-sign']}>log in/ sign up</div>
         </div>
       </div>
       <div className={styles.hero}>
-        <div className={styles.cafe4d1icon}>
+        <div className={styles['cafe4-d-1-icon']}>
           <Image
             alt=""
             src="/img/cafe4-d-1@2x.png"
@@ -43,7 +43,7 @@ export default function Home() {
             height={930}
           />
         </div>
-        <div className={styles.signupicon}>
+        <div className={styles['sign-up-icon']}>
           <Image
             alt=""
             src="/img/sign-up.svg"
@@ -51,7 +51,7 @@ export default function Home() {
             height={23}
           />
         </div>
-        <div className={styles.heroitem}>
+        <div className={styles['hero-item']}>
           <Image
             alt=""
             src="/img/vector-1.svg"
@@ -59,9 +59,9 @@ export default function Home() {
             height={31.6}
           />
         </div>
-        <div className={styles.herochild}></div>
+        <div className={styles['hero-child']}></div>
         <div className={styles.nft}>
-          <div className={styles.nftchild}>
+          <div className={styles['nft-child']}>
             <Image
               alt=""
               src="/img/rectangle-2.svg"
@@ -72,15 +72,15 @@ export default function Home() {
 
 
 
-          <div className={styles['withnft']}>with NFT</div>
+          <div className={styles['with-nft']}>with NFT</div>
         </div>
-        <div className={styles['signup']}>sign up</div>
+        <div className={styles['sign-up']}>sign up</div>
         <div className={styles['div']}>アートでつながる世界を作ろう</div>
         <div className={styles['div1']}>アーチストとアーチストを応援する人の新たな関係</div>
-        <div className={styles['thestreetgallerycontainer']}>
-          <p className={styles['thestreet']}>ArtVisionary</p>
+        <div className={styles['the-street-gallery-container']}>
+          <p className={styles['the-street']}>ArtVisionary</p>
         </div>
-        <b className={styles['welcometo']}>WELCOME TO</b>
+        <b className={styles['welcome-to']}>WELCOME TO</b>
       </div>
 
       <div className={styles.concept}>
@@ -183,7 +183,7 @@ export default function Home() {
           <div className={styles['rectangle-parent3']}>
             <div className={styles['group-child']}></div>
             <img
-              className={styles.rectangleIcon}
+              className={styles['rectangle-icon']}
               alt=""
               src="/img/rectangle6@2x.png"
             />
@@ -191,7 +191,7 @@ export default function Home() {
           <div className={styles['rectangle-parent4']}>
             <div className={styles['group-child']}></div>
             <img
-              className={styles.rectangleIcon}
+              className={styles['rectangle-icon']}
               alt=""
               src="/img/rectangle5@2x.png"
             />
@@ -199,40 +199,40 @@ export default function Home() {
           <div className={styles['rectangle-parent5']}>
             <div className={styles['group-child']}></div>
             <img
-              className={styles.rectangleIcon}
+              className={styles['rectangle-icon']}
               alt=""
               src="/img/rectangle4@2x.png"
             />
           </div>
           <div className={styles['rectangle-parent6']}>
             <div className={styles['rectangle-div']}></div>
-            <div className={styles.shinTanakaContainer}>
-              <span className={styles.shinTanaka}>中島ケイタ</span>｜ 「The Day」 ｜ ♡️ ️ ｜ 0.01
+            <div className={styles['shin-tanaka-container']}>
+              <span className={styles['shin-tanaka']}>中島ケイタ</span>｜ 「The Day」 ｜ ♡️ ️ ｜ 0.01
             </div>
             <img
-              className={styles.ethereumIcon1}
+              className={styles['ethereum-icon']}
               alt=""
               src="/img/ethereum-1@2x.png"
             />
           </div>
           <div className={styles['rectangle-parent7']}>
             <div className={styles['rectangle-div']}></div>
-            <div className={styles.shinTanakaContainer}>
-              <span className={styles.shinTanaka}>中島ケイタ</span>｜ 「React」 ｜ ♡️ ️ ｜ 0.01
+            <div className={styles['shin-tanaka-container']}>
+              <span className={styles['shin-tanaka']}>中島ケイタ</span>｜ 「React」 ｜ ♡️ ️ ｜ 0.01
             </div>
             <img
-              className={styles.ethereumIcon2}
+              className={styles['ethereum-icon2']}
               alt=""
               src="/img/ethereum-1@2x.png"
             />
           </div>
           <div className={styles['rectangle-parent8']}>
             <div className={styles['rectangle-div']}></div>
-            <div className={styles.shinTanakaContainer}>
-              <span className={styles.shinTanaka}>楊悟</span>｜ 「NARA」 ｜ ♡️ ️ ｜ 0.01
+            <div className={styles['shin-tanaka-container']}>
+              <span className={styles['shin-tanaka']}>楊悟</span>｜ 「NARA」 ｜ ♡️ ️ ｜ 0.01
             </div>
             <img
-              className={styles.ethereumIcon3}
+              className={styles['ethereum-icon3']}
               alt=""
               src="/img/ethereum-1@2x.png"
             />
@@ -240,7 +240,7 @@ export default function Home() {
           <div className={styles['rectangle-parent9']}>
             <div className={styles['group-child']}></div>
             <img
-              className={styles.unsplashd2w1ljioqIcon}
+              className={styles['unsplashd2w1ljioq-icon']}
               alt=""
               src="/img/unsplashd2w-1ljioq1@2x.png"
             />
@@ -248,7 +248,7 @@ export default function Home() {
           <div className={styles['rectangle-parent10']}>
             <div className={styles['group-child']}></div>
             <img
-              className={styles.unsplashg5a5znjs2teIcon}
+              className={styles['unsplashg5a5znjs2te-icon']}
               alt=""
               src="/img/unsplashg5a5znjs2te1@2x.png"
             />
@@ -256,29 +256,29 @@ export default function Home() {
           <div className={styles['rectangle-parent11']}>
             <div className={styles['group-child']}></div>
             <img
-              className={styles.unsplashg5a5znjs2teIcon}
+              className={styles['unsplashg5a5znjs2te-icon']}
               alt=""
               src="/img/unsplashpgdw-bhdbpi2@2x.png"
             />
           </div>
           <div className={styles['rectangle-parent12']}>
             <div className={styles['rectangle-div']}></div>
-            <div className={styles.shinTanakaContainer}>
-              <span className={styles.shinTanaka}>川村NANA</span>｜ 「lightⅤ」 ｜ ♡️ ️ ｜ 0.01
+            <div className={styles['shin-tanaka-container']}>
+              <span className={styles['shin-tanaka']}>川村NANA</span>｜ 「lightⅤ」 ｜ ♡️ ️ ｜ 0.01
             </div>
             <img
-              className={styles.ethereumIcon4}
+              className={styles['ethereum-icon4']}
               alt=""
               src="/img/ethereum-1@2x.png"
             />
           </div>
           <div className={styles['rectangle-parent13']}>
             <div className={styles['rectangle-div']}></div>
-            <div className={styles.shinTanakaContainer}>
-              <span className={styles.shinTanaka}>川村NANA</span>｜ 「lightⅥ」 ｜ ♡️ ️ ｜ 0.01
+            <div className={styles['shin-tanaka-container']}>
+              <span className={styles['shin-tanaka']}>川村NANA</span>｜ 「lightⅥ」 ｜ ♡️ ️ ｜ 0.01
             </div>
             <img
-              className={styles.ethereumIcon5}
+              className={styles['ethereum-icon5']}
               alt=""
               src="/img/ethereum-1@2x.png"
             />
@@ -286,11 +286,11 @@ export default function Home() {
 
           <div className={styles['rectangle-parent14']}>
             <div className={styles['rectangle-div']}></div>
-            <div className={styles.shinTanakaContainer}>
-              <span className={styles.shinTanaka}>住吉シゲ</span>｜ 「キューブ」 ｜ ♡️ ️ ｜ 0.01
+            <div className={styles['shin-tanaka-container']}>
+              <span className={styles['shin-tanaka']}>住吉シゲ</span>｜ 「キューブ」 ｜ ♡️ ️ ｜ 0.01
             </div>
             <img
-              className={styles.ethereumIcon2}
+              className={styles['ethereum-icon2']}
               alt=""
               src="/img/ethereum-1@2x.png"
             />
@@ -321,33 +321,33 @@ export default function Home() {
           </div>
           <div className={styles['rectangle-parent18']}>
             <div className={styles['rectangle-div']}></div>
-            <div className={styles.shinTanakaContainer}>
-              <span className={styles.shinTanaka}>AAAA</span>｜ 「lightⅤ」 ｜ ♡️ ️ ｜ 0.01
+            <div className={styles['shin-tanaka-container']}>
+              <span className={styles['shin-tanaka']}>AAAA</span>｜ 「lightⅤ」 ｜ ♡️ ️ ｜ 0.01
             </div>
             <img
-              className={styles.ethereumIcon7}
+              className={styles['ethereum-icon7']}
               alt=""
               src="/img/ethereum-1@2x.png"
             />
           </div>
           <div className={styles['rectangle-parent19']}>
             <div className={styles['rectangle-div']}></div>
-            <div className={styles.shinTanakaContainer}>
-              <span className={styles.shinTanaka}>AAAA</span>｜ 「lightⅤ」 ｜ ♡️ ️ ｜ 0.01
+            <div className={styles['shin-tanaka-container']}>
+              <span className={styles['shin-tanaka']}>AAAA</span>｜ 「lightⅤ」 ｜ ♡️ ️ ｜ 0.01
             </div>
             <img
-              className={styles.ethereumIcon8}
+              className={styles['ethereum-icon8']}
               alt=""
               src="/img/ethereum-1@2x.png"
             />
           </div>
           <div className={styles['rectangle-parent20']}>
             <div className={styles['rectangle-div']}></div>
-            <div className={styles.shinTanakaContainer}>
-              <span className={styles.shinTanaka}>BBB</span>｜ 「DDDDD」 ｜ ♡️ ️ ｜ 0.01
+            <div className={styles['shin-tanaka-container']}>
+              <span className={styles['shin-tanaka']}>BBB</span>｜ 「DDDDD」 ｜ ♡️ ️ ｜ 0.01
             </div>
             <img
-              className={styles.ethereumIcon7}
+              className={styles['ethereum-icon7']}
               alt=""
               src="/img/ethereum-1@2x.png"
             />
@@ -378,33 +378,33 @@ export default function Home() {
           </div>
           <div className={styles['rectangle-parent24']}>
             <div className={styles['rectangle-div']}></div>
-            <div className={styles.shinTanakaContainer}>
-              <span className={styles.shinTanaka}>KK</span>｜ 「LLLL」 ｜ ♡️ ️ ｜ 0.01
+            <div className={styles['shin-tanaka-container']}>
+              <span className={styles['shin-tanaka']}>KK</span>｜ 「LLLL」 ｜ ♡️ ️ ｜ 0.01
             </div>
             <img
-              className={styles.ethereumIcon10}
+              className={styles['ethereum-icon0']}
               alt=""
               src="/img/ethereum-1@2x.png"
             />
           </div>
           <div className={styles['rectangle-parent25']}>
             <div className={styles['rectangle-div']}></div>
-            <div className={styles.shinTanakaContainer}>
-              <span className={styles.shinTanaka}>NN</span>｜ 「MMMM」 ｜ ♡️ ️ ｜ 0.01
+            <div className={styles['shin-tanaka-container']}>
+              <span className={styles['shin-tanaka']}>NN</span>｜ 「MMMM」 ｜ ♡️ ️ ｜ 0.01
             </div>
             <img
-              className={styles.ethereumIcon11}
+              className={styles['ethereum-icon1']}
               alt=""
               src="/img/ethereum-1@2x.png"
             />
           </div>
           <div className={styles['rectangle-parent26']}>
             <div className={styles['rectangle-div']}></div>
-            <div className={styles.shinTanakaContainer}>
-              <span className={styles.shinTanaka}>OOOOO</span>｜ 「PPPPP」 ｜ ♡️ ️ ｜ 0.01
+            <div className={styles['shin-tanaka-container']}>
+              <span className={styles['shin-tanaka']}>OOOOO</span>｜ 「PPPPP」 ｜ ♡️ ️ ｜ 0.01
             </div>
             <img
-              className={styles.ethereumIcon12}
+              className={styles['ethereum-icon2']}
               alt=""
               src="/img/ethereum-1@2x.png"
             />
@@ -436,33 +436,33 @@ export default function Home() {
           </div>
           <div className={styles['rectangle-parent30']}>
             <div className={styles['rectangle-div']}></div>
-            <div className={styles.shinTanakaContainer}>
-              <span className={styles.shinTanaka}>Q</span>｜ RRR ｜ ♡️ ️ ｜ 0.01
+            <div className={styles['shin-tanaka-container']}>
+              <span className={styles['shin-tanaka']}>Q</span>｜ RRR ｜ ♡️ ️ ｜ 0.01
             </div>
             <img
-              className={styles.ethereumIcon13}
+              className={styles['ethereum-icon3']}
               alt=""
               src="/img/ethereum-1@2x.png"
             />
           </div>
           <div className={styles['rectangle-parent31']}>
             <div className={styles['rectangle-div']}></div>
-            <div className={styles.shinTanakaContainer}>
-              <span className={styles.shinTanaka}>SSSS</span>｜ T」 ｜ ❤️ ️ ｜ 0.01️
+            <div className={styles['shin-tanaka-container']}>
+              <span className={styles['shin-tanaka']}>SSSS</span>｜ T」 ｜ ❤️ ️ ｜ 0.01️
             </div>
             <img
-              className={styles.ethereumIcon14}
+              className={styles['ethereum-icon4']}
               alt=""
               src="/img/ethereum-1@2x.png"
             />
           </div>
           <div className={styles['rectangle-parent32']}>
             <div className={styles['rectangle-div']}></div>
-            <div className={styles.shinTanakaContainer}>
-              <span className={styles.shinTanaka}>UUU</span>｜ 「V」 ｜ ❤️ ️ ｜ 0.01️
+            <div className={styles['shin-tanaka-container']}>
+              <span className={styles['shin-tanaka']}>UUU</span>｜ 「V」 ｜ ❤️ ️ ｜ 0.01️
             </div>
             <img
-              className={styles.ethereumIcon15}
+              className={styles['ethereum-icon5']}
               alt=""
               src="/img/ethereum-1@2x.png"
             />
@@ -480,7 +480,7 @@ export default function Home() {
           />
 
           <img
-            className={styles.rectangleIcon7}
+            className={styles['rectangle-icon7']}
             alt=""
             src="/img/rectangle2@2x.png"
           />
@@ -503,7 +503,7 @@ export default function Home() {
           />
 
           <img
-            className={styles.rectangleIcon8}
+            className={styles['rectangle-icon8']}
             alt=""
             src="/img/rectangle3@2x.png"
           />
